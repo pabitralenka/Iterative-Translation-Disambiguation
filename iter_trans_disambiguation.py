@@ -142,7 +142,6 @@ def best_word(hin, hinen, entrans, unigram, bigram):
 						th = 0.000001
 						#print (sum_all)
 						if sum_all < th:
-						#if wt_q1_new[0] - wt_q1_prev[0] < th or wt_q2_new[0] - wt_q2_prev[0] < th or wt_q3_new[0] - wt_q3_prev[0] < th:
 							#Finding the most probable translated word
 							if flag == 1:
 								pos = wt_q3_new.index(max(wt_q3_new))
